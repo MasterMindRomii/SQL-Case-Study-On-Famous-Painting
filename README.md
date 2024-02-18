@@ -1,43 +1,44 @@
 # SQL Case Study on Famous Paintings 🎨
 
-Welcome to the SQL Case Study on Famous Paintings repository! Here, we explore intriguing insights from the Famous Paintings & Museum dataset. 
+Welcome to the SQL Case Study on Famous Paintings repository! Here, we delve into intriguing insights from the Famous Paintings & Museum dataset.
 
 ## About the Dataset ℹ️
-The dataset consists of 8 tables:
-- artist.csv
-- canvas_size.csv
-- image_link.csv
-- museum.csv
-- museum_hours.csv
-- product_size.csv
-- subject.csv
-- work.csv
+The dataset comprises 8 tables:
+
+- **artist.csv**
+- **canvas_size.csv**
+- **image_link.csv**
+- **museum.csv**
+- **museum_hours.csv**
+- **product_size.csv**
+- **subject.csv**
+- **work.csv**
 
 **Dataset Link:** [Famous Paintings & Museum Dataset](https://www.kaggle.com/datasets/mexwell/famous-paintings)
 
 ## Key Queries Explored 🔍
-1. Fetch paintings not displayed in any museums.
-2. Identify museums without any paintings.
-3. Determine paintings with asking prices exceeding regular prices.
-4. Identify paintings with asking prices less than 50% of regular prices.
-5. Determine the canvas size that costs the most.
-6. Delete duplicate records from various tables.
-7. Identify museums with invalid city information.
-8. Remove invalid entries from the Museum_Hours table.
-9. Fetch the top 10 most famous painting subjects.
-10. Identify museums open on both Sunday and Monday.
-11. Determine museums open every single day.
-12. Determine the top 5 most popular museums.
-13. Identify the top 5 most popular artists.
-14. Display the 3 least popular canvas sizes.
-15. Determine the museum open for the longest during a day.
-16. Identify the museum with the most number of paintings in the most popular painting style.
-17. Identify artists whose paintings are displayed in multiple countries.
-18. Determine the country and city with the most number of museums.
-19. Identify the artist and museum with the most expensive and least expensive paintings.
-20. Determine the country with the 5th highest number of paintings.
-21. Determine the 3 most popular and 3 least popular painting styles.
-22. Identify the artist with the most number of Portrait paintings outside the USA.
+1. **Fetch all the paintings which are not displayed in any museums?**
+2. **Are there museums without any paintings?**
+3. **How many paintings have an asking price of more than their regular price?**
+4. **Identify the paintings whose asking price is less than 50% of its regular price.**
+5. **Which canvas size costs the most?**
+6. **Delete duplicate records from work, product_size, subject, and image_link tables.**
+7. **Identify the museums with invalid city information in the given dataset.**
+8. **Museum_Hours table has 1 invalid entry. Identify it and remove it.**
+9. **Fetch the top 10 most famous painting subjects.**
+10. **Identify the museums which are open on both Sunday and Monday. Display museum name, city.**
+11. **How many museums are open every single day?**
+12. **Which are the top 5 most popular museums? (Popularity is defined based on most number of paintings in a museum)**
+13. **Who are the top 5 most popular artists? (Popularity is defined based on most number of paintings done by an artist)**
+14. **Display the 3 least popular canvas sizes.**
+15. **Which museum is open for the longest during a day? Display museum name, state, hours open and which day?**
+16. **Which museum has the most number of most popular painting style?**
+17. **Identify the artists whose paintings are displayed in multiple countries.**
+18. **Display the country and the city with the most number of museums. Output 2 separate columns to mention the city and country. If there are multiple values, separate them with a comma.**
+19. **Identify the artist and the museum where the most expensive and least expensive painting is placed. Display the artist name, sale_price, painting name, museum name, museum city, and canvas label.**
+20. **Which country has the 5th highest number of paintings?**
+21. **Which are the 3 most popular and 3 least popular painting styles?**
+22. **Which artist has the most number of Portraits paintings outside the USA? Display artist name, number of paintings, and the artist nationality.**
 
 ## Tools and Technologies 🛠️
 - MySQL Database
