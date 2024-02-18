@@ -5,14 +5,14 @@ Welcome to the SQL Case Study on Famous Paintings repository! Here, we delve int
 ## About the Dataset ℹ️
 The dataset comprises 8 tables:
 
-- **artist.csv**
-- **canvas_size.csv**
-- **image_link.csv**
-- **museum.csv**
-- **museum_hours.csv**
-- **product_size.csv**
-- **subject.csv**
-- **work.csv**
+- **artist.csv** 🎨
+- **canvas_size.csv** 🖼️
+- **image_link.csv** 🌐
+- **museum.csv** 🏛️
+- **museum_hours.csv** ⏰
+- **product_size.csv** 📏
+- **subject.csv** 📚
+- **work.csv** 🛠️
 
 **Dataset Link:** [Famous Paintings & Museum Dataset](https://www.kaggle.com/datasets/mexwell/famous-paintings)
 
