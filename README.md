@@ -14,7 +14,6 @@ The dataset comprises 8 tables:
 - **subject.csv** 📚
 - **work.csv** 🛠️
 
-**Dataset Link:** [Famous Paintings & Museum Dataset](https://www.kaggle.com/datasets/mexwell/famous-paintings)
 
 ## Key Queries Explored 🔍
 1. **Fetch all the paintings which are not displayed in any museums?**
